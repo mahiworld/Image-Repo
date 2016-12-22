@@ -12,7 +12,7 @@ public class Negative {
 		
 		//read image
 		try{
-			f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\images\\kristi1.jpg");
+			f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\data\\kristi1.jpg");
 			img = ImageIO.read(f);
 			System.out.println("Reading complete.");
 		}catch(IOException e){
@@ -48,7 +48,7 @@ public class Negative {
 	    
 	    //write image
 	    try{
-	    	f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\images\\output\\kristi1.jpg");
+	    	f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\data\\output\\kristi1.jpg");
 	    	ImageIO.write(img,"jpg",f);
 	    	System.out.println("Write complete.");
 	    }catch(IOException e){

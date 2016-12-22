@@ -10,7 +10,7 @@ public class MirrorImage {
 		    File f = null;
 		    //read source image file
 		    try{
-		      f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\images\\kristi.jpg");
+		      f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\data\\kristi.jpg");
 		      simg = ImageIO.read(f);
 		      System.out.println("Reading completed");
 		    }catch(IOException e){
@@ -35,7 +35,7 @@ public class MirrorImage {
 		    }
 		    //save mirror image
 		    try{
-		      f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\images\\output\\kristi.jpg");
+		      f = new File("C:\\Users\\mahi\\git\\Image-Repo\\mahiworld.image\\data\\output\\kristi.jpg");
 		      ImageIO.write(mimg, "png", f);
 		      System.out.println("Writting completed");
 		    }catch(IOException e){
